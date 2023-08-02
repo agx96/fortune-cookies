@@ -79,6 +79,7 @@
   .app__title {
     font-size: 3em;
     padding-top: 1em;
+    padding-bottom: 0.5em;
     letter-spacing: normal;
     flex-wrap: wrap;
     color: #fff; /* Color del texto en el interior del h1 */

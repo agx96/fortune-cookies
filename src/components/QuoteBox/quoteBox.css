@@ -11,6 +11,8 @@
     position: absolute;
     z-index: 1;
     position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .fortune__phrase {
@@ -38,19 +40,24 @@
     transform: scale(0.95);
 }
 /**--- Media Querys ---**/
-/*@media screen and (max-width: 571px){
-    .phrase__container {
-        max-height: 10em;
-        max-width: 25em;
-    }
+@media screen and (max-width: 640px){
+  .paper__phrase {
+    width: 90%;
+  }
 }
-@media screen and (max-width: 430px){
-    .phrase__container {
-        max-height: 10em;
-        max-width: 20em;
-    }
+
+@media screen and (max-width: 469px){
     .fortune__phrase {
-        padding: 1em;
-        line-height: 1.5;
+        text-align: center;
+        padding: 1em 3em;
+        line-height: 1.1;
+        font-size: 1.2em;
+        font-weight: 400;
+        max-width: 30em;
+        position: absolute;
+        z-index: 20;
     }
-}*/
+    .section__author {
+        margin-top: 2em;
+    }
+  }

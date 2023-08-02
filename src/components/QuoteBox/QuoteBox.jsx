@@ -10,7 +10,7 @@ const QuoteBox = ({ handleRandomPhrase, quote}) => {
       <p className='fortune__phrase'>{quote.phrase}</p>
     </section>
     <button className='change__phrase-btn' onClick={handleRandomPhrase}>View other</button>
-    <section>
+    <section className='section__author'>
       {quote.author}
     </section>
   </>
