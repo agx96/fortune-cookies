@@ -1,25 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* --- RESETS --- */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-body, html {
-    margin: 0;
-    font-family: 'Fredoka','Montserrat', sans-serif;
-    background-color: #f4f4f4;
+body,
+html {
+  margin: 0;
+  font-family: "Fredoka", "Montserrat", sans-serif;
+  background-color: #f4f4f4;
 }
-h1, h2, h3, h4, p, ul, span {
-    margin-top: 0;
-    margin-bottom: 0;
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+span {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 ul {
-    padding-left: 0;
-    list-style: none;
+  padding-left: 0;
+  list-style: none;
 }
 button {
-    border: none;
-    font-family: inherit;
-    cursor: pointer;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
 }
